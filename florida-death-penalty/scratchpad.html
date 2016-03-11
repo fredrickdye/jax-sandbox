@@ -1,0 +1,52 @@
+THIS WORKED ONLY WHEN I ONLY HAD ONE DIV
+function dismiss(){
+		document.getElementById('dismiss').parentNode.style.display='none';
+		$("div#det-preview").show();
+	};
+
+
+
+     <div id="det-Washington" class="chatter textwhite county-list">
+         <p id="dismiss" onclick="dismiss();">&mdash; Close &mdash;</p>
+         <h1>Washington County</h1><p></p>
+     </div>
+
+
+
+THIS DIDNT WORK AT ALL
+
+	function dismiss(){
+		document.getElementsByClassName('dismiss').parentNode.style.display='none';
+		$("div#det-preview").show();
+	};
+
+
+THIS CLOSES CORRECTLY
+$(document).ready(function(c) {
+	$('.alert-close').on('click', function(c){
+		$(this).parent().fadeOut('slow', function(c){
+		});
+	});	
+});
+
+
+THIS ONE CLOSES BUT DOES NOT OPEN
+    $(document).ready(function(c) {
+	$('.dismiss').on('click', function(c){
+		$(this).parent().fadeOut('slow', function(c){
+		});
+	});	
+        $("div#det-preview").show();
+});
+
+
+THIS ONE ACTUALLY WORKS !!!!!!!!!!
+JUST NEEDS SOME TUNING
+
+$(document).ready(function(c) {
+	$('.dismiss').on('click', function(c){
+		$(this).parent().fadeOut('slow', function(c){
+		});
+        $("div#det-preview").show();
+	});	
+});

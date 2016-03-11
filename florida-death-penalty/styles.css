@@ -1,0 +1,153 @@
+/*----------------------
+CORE
+---------------------- */
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 12pt;
+/*background-color: black;*/
+}
+p {font-size: 0.9em;}
+.textwhite {color: white;}
+div.chatter.close {
+float:right;
+}
+
+
+/*----------------------
+XXXXXX
+---------------------- */
+div#credits {
+font-size: 0.7em;
+text-align:right;
+line-height:0.7em.
+}
+div#sources {
+font-size: 0.7em;
+text-align:left;
+margin-bottom: -1.2em;
+line-height:0.7em.
+}
+div#chart {
+width:99%; 
+margin:auto;
+}
+
+/*----------------------
+SVG
+---------------------- */
+.svg-container { 
+display: inline-block;
+position: relative;
+width: 100%;
+/*padding-bottom: 100%; */
+vertical-align: middle; 
+overflow: hidden; 
+}
+svg {
+}
+
+svg g#Circles {
+stroke:#fff;
+/*fill:#fff;*/
+fill-opacity:0.75;
+stroke-opacity:1;
+stroke-width:0.25;
+}
+svg g#legend circle {
+stroke:#fff;
+/*fill:#fff;*/
+fill-opacity:0.75;
+stroke-opacity:1;
+stroke-width:0.25;
+}
+svg circle:hover {
+stroke:#C1272D;
+fill-opacity:1;
+stroke-opacity:1;
+stroke-width:0.75;
+}
+svg g#maps g {
+stroke:#000;
+stroke-width:0.25;
+}  
+/*svg g#maps g:hover {
+stroke:#fff;
+stroke-width:1.25;
+}*/
+
+path#lake-okeechobe {
+fill:#000;
+}
+g#chatter {
+fill:#fff;
+}
+svg g#unitedstatesmap path {
+stroke:#000;
+stroke-width:0.25;
+}  
+svg g#unitedstatesmap path:hover {
+stroke:#000;
+fill:#ccc;
+fill-opacity:0.75;
+stroke-opacity:1;
+stroke-width:0.25;
+}  
+g#legend {
+fill:#fff;
+}
+
+
+
+
+/*----------------------
+CLOSER
+---------------------- */
+p#dismiss {
+font-size:0.9em;
+text-align: center;
+cursor: pointer;
+margin:8px 0 0 0;
+text-transform: uppercase;
+padding: 0;
+}
+p#dismiss+h1 {margin-top: 0;}
+p#dismiss:hover {color: #C1272D;}
+
+p.dismiss {
+font-size:0.9em;
+text-align: center;
+cursor: pointer;
+margin:8px 0 0 0;
+text-transform: uppercase;
+padding: 0;
+}
+p.dismiss+h1 {margin-top: 0;}
+p.dismiss:hover {color: #C1272D;}
+
+
+
+/*----------------------
+DEATH ROW LISTS
+---------------------- */
+div.chatter {
+padding-right:12px;
+}
+div.chatter h1 {
+margin-bottom: 0px;
+}
+
+div#det-sample {display: none;}
+
+div#dpstatedets {
+    width:40%; 
+    float:left; 
+}
+div.county-list {
+    max-height: 550px;
+    overflow-y: auto;
+}
+div.county-list h1+p::before {
+    content: "Here are the people sentenced to death row and when they began their current incarceration:";
+}
+p.drlist {margin:6px 0px;}
+
