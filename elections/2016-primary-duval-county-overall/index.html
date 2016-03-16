@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Duval County Results: 2016 Presidential Preference Primary</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+      <h1>Duval County primary results</h1>
+      <h6>194 of 199 preceincts reported</h6>
+    <svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="640px" height="400px"
+	 overflow="visible" xml:space="preserve">
+    
+    <g id="circleBarCharts">
+        
+        <!-- Rep Circle Bar Chart -->
+        <g id="circleBar-rep-group" transform="translate(0,0)">
+          <image id="circleBar-rep-icon" opacity="0" x="113" y="88" overflow="visible" width="130" height="120" xlink:href="img/Republicanlogo.png" />
+            <text id="circleBar-rep-text" opacity="0" x="129" y="143"> </text>
+            <g id="circleBar-rep-chart" transform="translate(180,150)"></g>
+            <clippath id="circleBar-rep-clipPath">
+                <rect id="circleBar-rep-clipLabels" x="170" y="215" width="180" height="0"></rect>
+            </clippath>
+            <g id="circleBar-rep-legend" clip-path="url(#circleBar-rep-clipPath)">
+                <text id="circleBar-rep-values" transform="translate(170,233)"></text>
+                <text id="circleBar-rep-labels" transform="translate(225,233)"></text>
+            </g>
+        </g>
+        <!-- END Rep Circle Bar Chart -->
+    
+        <!-- Dem Circle Bar Chart -->
+        <g id="circleBar-dem-group" transform="translate(250,0)">
+            <image id="circleBar-dem-icon" opacity="0" x="145" y="85" overflow="visible" width="150" height="130" xlink:href="img/DemocraticLogo.png" />
+            <text id="circleBar-dem-text" opacity="0" x="164" y="155"> </text>
+            <g id="circleBar-dem-chart" transform="translate(215,150)"></g>
+            <clippath id="circleBar-dem-clipPath">
+                <rect id="circleBar-dem-clipLabels" x="205" y="215" width="180" height="0"></rect>
+            </clippath>
+            <g id="circleBar-dem-legend" clip-path="url(#circleBar-dem-clipPath)">
+                <text id="circleBar-dem-values" transform="translate(205,233)"></text>
+                <text id="circleBar-dem-labels" transform="translate(260,233)"></text>
+            </g>
+        </g>
+        <!-- END Dem Circle Bar Chart -->
+    </g>
+	 
+</svg>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
