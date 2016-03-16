@@ -3,7 +3,7 @@ Some projects once in active development that lacked the necessary support to co
 
 ## Florida Death Penalty
 
-[GeoJSON files](florida-death-penalty/) An orphan that was intended to be a large package of visualizations exploring the death penalty in Florida ahead of, and during the scramble after, the U.S. Supreme Court's decision to strike down the sentencing mechanism in the state. It did not garner enough support to allow scheduling adjustment for me to continue work on it, so I moved it here to be slowly advanced and available for others who my wish to utilize the datasets.
+[This is](florida-death-penalty/) an orphan that was intended to be a large package of visualizations exploring the death penalty in Florida ahead of, and during the scramble after, the U.S. Supreme Court's decision to strike down the sentencing mechanism in the state. It did not garner enough support to allow scheduling adjustment for me to continue work on it, so I moved it here to be slowly advanced and available for others who my wish to utilize the datasets.
 
 ## Jacksonville Crime
 
