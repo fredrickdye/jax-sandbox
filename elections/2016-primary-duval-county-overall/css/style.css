@@ -2,6 +2,7 @@ body {
     position: relative;
     margin-left:0px;
     background-color:#fff;
+    text-align: center;
 }
 h1 {
     font-family:'Open Sans Condensed', sans-serif;
