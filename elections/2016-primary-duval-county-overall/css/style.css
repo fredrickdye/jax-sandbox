@@ -1,0 +1,45 @@
+body {
+    position: relative;
+    margin-left:0px;
+    background-color:#fff;
+}
+h1 {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size:32px;
+    margin-left:18px;
+    margin-bottom:0px;
+}
+h6 {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size:12px;
+    margin-left:18px;
+    margin-bottom:0px;
+    margin-top:0px;
+    color: #999;
+}
+#circleBar-rep-text,
+#circleBar-dem-text{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size:16px;
+    fill:#000;
+}
+#circleBar-rep-labels tspan,
+#circleBar-dem-labels tspan {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size:16px;
+    fill:#6D6E71;
+}
+
+#circleBar-rep-values tspan,
+#circleBar-dem-values tspan {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    font-weight:bold;
+    fill:#000;
+}
+#circleBar-rep-values tspan {
+    fill: #7D3A4D;
+}
+#circleBar-dem-values tspan {
+    fill: #684E88;
+}
