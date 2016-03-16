@@ -1,15 +1,15 @@
 var chartData = {
     "barCircleDem":[
-        {"index":0.3, "value":57996, "fill":"#084594", "label":"Hillary Clinton"},
-        {"index":0.45, "value":26308, "fill":"#2171b5", "label":"Bernie Sanders"},
-        {"index":0.6, "value":1926, "fill":"#4292c6", "label":"Martin O'Malley"},
+        {"index":0.3, "value":58632, "fill":"#084594", "label":"Hillary Clinton"},
+        {"index":0.45, "value":26716, "fill":"#2171b5", "label":"Bernie Sanders"},
+        {"index":0.6, "value":1939, "fill":"#4292c6", "label":"Martin O'Malley"},
     ],
     "barCircleRep":[
-        {"index":0.3, "value":52039, "fill":"#99000d", "label":"Donald J. Trump"},
-        {"index":0.45, "value":29534, "fill":"#cb181d", "label":"Marco Rubio"},
-        {"index":0.6, "value":19734, "fill":"#fb6a4a", "label":"Ted Cruz"},
-        {"index":0.75, "value":5583, "fill":"#ef3b2c", "label":"John R. Kasich"},
-        {"index":0.9, "value":3529, "fill":"#fc9272", "label":"Others"},
+        {"index":0.3, "value":52588, "fill":"#99000d", "label":"Donald J. Trump"},
+        {"index":0.45, "value":29844, "fill":"#cb181d", "label":"Marco Rubio"},
+        {"index":0.6, "value":19957, "fill":"#fb6a4a", "label":"Ted Cruz"},
+        {"index":0.75, "value":5638, "fill":"#ef3b2c", "label":"John R. Kasich"},
+        {"index":0.9, "value":3546, "fill":"#fc9272", "label":"Others"},
     ]
 };
 
