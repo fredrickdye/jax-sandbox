@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Crime time | When crimes occur in jacksonville</title>
+    <title>Crime time | When crimes occur in Jacksonville</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
@@ -32,10 +32,10 @@
           border-radius: 5px;
           padding: 0;
           border: 1px solid #999;
-          width: 100px;
+          /*width: 90px;*/
       }
       .layer_selector > p {
-          padding: 15px 30px;
+          padding: 8px 12px;
           border-bottom: 1px solid #999;
           margin-bottom: 0;
       }
@@ -45,11 +45,12 @@
           list-style-type: none;
       }
       .layer_selector li {
-          padding: 15px 12px;
-          font-family: Helvetica, Arial;
-          font-size: 13px;
+          padding: 8px 12px;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-size: 12px;
           color: #444;
           cursor: pointer;
+          text-align: center;
       }
       .layer_selector li:not(:last-child) {
           border-bottom: 1px solid #999;
@@ -170,8 +171,8 @@
     <div id="sql-buttons" class="layer_selector">
         <ul>
             <li data="XXXXX" class="selected">Show All</li>
-            <li data="aggbat">Aggravated Battery</li>
-            <li data="resburg">Residential Burglary</li>
+            <li data="aggbat">Aggravated<br>Battery</li>
+            <li data="resburg">Residential<br>Burglary</li>
             <li data="tomv">Auto Theft</li>
             <li data="rob">Robbery</li>
         </ul>
@@ -188,7 +189,7 @@
           var map = new L.map('map', {
               scrollWheelZoom: false,
               center: [30.355, -81.70],
-              zoom: 11
+              zoom: 10
           });
 
           map.addLayer(layer);
