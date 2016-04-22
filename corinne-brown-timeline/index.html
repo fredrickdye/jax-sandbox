@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+  __ _  ___     __ ___      ____ _ _   _ 
+ / _` |/ _ \   / _` \ \ /\ / / _` | | | |
+| (_| | (_) | | (_| |\ V  V / (_| | |_| |
+ \__, |\___/   \__,_| \_/\_/ \__,_|\__, |
+  __/ |                             __/ |
+ |___/                             |___/ 
+
+If you want one of these, it's just an off-the-shelf thing. Visit timeline.knightlab.com
+-->
+  <head>
+    <title>Corinne Brown, Distict 5 Representative</title>
+    <meta name="description" content="U.S. Rep. Corrine Brown has spent decades in the public spotlight, fighting for her causes and weathering controversies.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <!-- Style-->
+    <style>
+      html, body {
+      height:100%;
+      padding: 0px;
+      margin: 0px;
+      }
+    </style>
+    <!-- shim --><!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="shortcut icon" href="http://freddye.com/home/icons/favicon.ico"> 
+  </head>
+  <body>
+      <div id="timeline-embed">
+        <div id="timeline"></div>
+      </div>
+    <!-- 1 -->
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <!-- 2 -->
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <!-- 3 -->
+      <script>
+        $(document).ready(function(){
+            var embed = document.getElementById('timeline-embed');
+            embed.style.height = getComputedStyle(document.body).height;
+            window.timeline = new TL.Timeline('timeline-embed', 'brown-timeline.json', { hash_bookmark: false});
+            window.addEventListener('resize', function() {
+              var embed = document.getElementById('timeline-embed');
+              embed.style.height = getComputedStyle(document.body).height;
+              timeline.updateDisplay();
+            })
+          });
+      </script>
+    </body>
+</html>
