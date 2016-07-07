@@ -798,7 +798,7 @@
    "VolleyballPct": "100"
  },
  {
-   "County": "Miami-Dade",
+   "County": "Dade",
    "Baseball": "2860.00",
    "BaseballPct": "67",
    "Basketball": "2860.00",
