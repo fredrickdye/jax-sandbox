@@ -105,9 +105,9 @@ CLOSER
 ---------------------- */
 p#dismiss {
 font-size:0.75em;
-text-align: right;
+text-align: center;
 cursor: pointer;
-margin:8px 4px 0 0;
+margin:8px 0 0 0;
 text-transform: uppercase;
 padding: 0;
 }
@@ -116,7 +116,7 @@ p#dismiss:hover {color: #C1272D;}
 
 p.dismiss {
 font-size:0.8em;
-text-align: right;
+text-align: center;
 cursor: pointer;
 margin:8px 0 0 0;
 text-transform: uppercase;
