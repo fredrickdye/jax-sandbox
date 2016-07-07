@@ -489,26 +489,8 @@ $(document).ready(function(c) {
 		$(this).parent().fadeOut(200, function(c){
 		});
         $("div#det-preview").delay(200).fadeIn(800);
+        $("g#maps g").attr("class", "cold");
 	});	
-});
-</script>
-<script>
-//$(document).ready(function(c) {
-//    $('g#alachua').on("click", function() {
-//        $(this).css({ fill: "#ff0000" });
-//    });
-//});
-</script>
-<script>
-$(document).ready(function() {
-    $('g#alachua').on("click", function() {
-        $("g#maps g").attr("class", "cold");
-        $(this).attr("class", "hot" );
-    });
-    $('g#bay').on("click", function() {
-        $("g#maps g").attr("class", "cold");
-        $(this).attr("class", "hot" );
-    });
 });
 </script>
 <!-- End Document
