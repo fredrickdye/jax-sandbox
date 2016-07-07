@@ -104,7 +104,7 @@ p.drlist {margin:6px 0px;}
 CLOSER
 ---------------------- */
 p#dismiss {
-font-size:0.9em;
+font-size:0.8em;
 text-align: center;
 cursor: pointer;
 margin:8px 0 0 0;
@@ -115,7 +115,7 @@ p#dismiss+h1 {margin-top: 0;}
 p#dismiss:hover {color: #C1272D;}
 
 p.dismiss {
-font-size:0.9em;
+font-size:0.8em;
 text-align: center;
 cursor: pointer;
 margin:8px 0 0 0;
