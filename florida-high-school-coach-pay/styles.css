@@ -107,7 +107,7 @@ p#dismiss {
 font-size:0.75em;
 text-align: right;
 cursor: pointer;
-margin:8px 0 0 0;
+margin:8px 4px 0 0;
 text-transform: uppercase;
 padding: 0;
 }
