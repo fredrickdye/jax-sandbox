@@ -1,0 +1,128 @@
+/*----------------------
+CORE
+---------------------- */
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 12pt;
+background-color: black;
+}
+p {font-size: 0.9em;}
+.textwhite {color: white;}
+div.chatter.close {
+float:right;
+}
+
+
+/*----------------------
+TL BLOCKS
+---------------------- */
+div#statemap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 320px;
+    max-width: 640px;
+
+}
+
+div.chatter {color: #fff; padding: 8px 12px;}
+div.chatter h1 {font-size: 21pt; margin: 0;}
+div.chatter p {font-size: 12pt; margin: 0;}
+
+
+/*----------------------
+XXXXXX
+---------------------- */
+div#credits {
+font-size: 0.7em;
+text-align:right;
+line-height:0.7em.
+}
+div#sources {
+font-size: 0.7em;
+text-align:left;
+margin-bottom: -1.2em;
+line-height:0.7em.
+}
+div#chart {
+width:99%; 
+margin:auto;
+}
+
+/*----------------------
+SVG
+---------------------- */
+.svg-container { 
+width: 100%;
+vertical-align: middle; 
+overflow: hidden; 
+}
+svg {
+}
+
+svg g#maps g.cold {
+fill:#D6DDD4 !important;
+stroke:#000;
+stroke-width:0.25;
+} 
+svg g#maps g:hover {
+fill:#C1272D !important;
+}
+svg g#maps g.hot {
+fill:#C1272D !important;
+}
+
+path#lake-okeechobe {
+fill:#000;
+}
+g#chatter {
+fill:#fff;
+}
+
+
+/*----------------------
+LISTS
+---------------------- */
+div#det-sample {display: none;}
+
+div#dpstatedets {
+    position: absolute;
+    left: 0;
+    top: 33%;
+    width:60%;
+}
+div.county-list {
+    max-height: 550px;
+    overflow-y: auto;
+}
+div.county-list h1+p::before {
+    content: "Blah blah blah blah:";
+}
+p.drlist {margin:6px 0px;}
+
+/*----------------------
+CLOSER
+---------------------- */
+p#dismiss {
+font-size:0.9em;
+text-align: center;
+cursor: pointer;
+margin:8px 0 0 0;
+text-transform: uppercase;
+padding: 0;
+}
+p#dismiss+h1 {margin-top: 0;}
+p#dismiss:hover {color: #C1272D;}
+
+p.dismiss {
+font-size:0.9em;
+text-align: center;
+cursor: pointer;
+margin:8px 0 0 0;
+text-transform: uppercase;
+padding: 0;
+}
+p.dismiss+h1 {margin-top: 0;}
+p.dismiss:hover {color: #C1272D;}
+
+
