@@ -131,7 +131,6 @@ DETAIL CHARTS
 dl.chart {
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 p.chartnote {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.9em;
@@ -139,8 +138,11 @@ p.chartnote {
     font-style: italic;
     margin-bottom:0px;
 }
-
-dt {padding: 2px 0px; font-weight:400; font-size:.9em;}
+dt {
+    padding: 0px 0px;
+    font-weight:400;
+    font-size:.8em;
+    }
 dd {
     padding: 0px;
     -webkit-margin-start: 0px;
@@ -151,13 +153,12 @@ dd {
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
 }
-
 .bar {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     color: #000;
-    font-size:.85em;
+    font-size:.75em;
     font-weight: 700;
-    padding: 4px;
+    padding: 2px 4px;
     text-align: right;
     background-color: #D6DDD4;
     border-radius: 2px;
@@ -165,7 +166,6 @@ dd {
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
 }
-
 .dataslide { 
     animation-name:barchartani; 
     animation-duration:0.8s;
@@ -187,7 +187,6 @@ dd {
     -o-animation-iteration-count:1;
     -o-animation-timing-function:ease-out;
 }
-
 @keyframes barchartani {
 0% { width:0%; }
 }
@@ -200,4 +199,5 @@ dd {
 @-o-keyframes barchartani {
 0% { width:0%; }
 }
+
 
