@@ -126,6 +126,42 @@ p.dismiss+h1 {margin-top: 0;}
 p.dismiss:hover {color: #C1272D;}
 
 /*----------------------
+START CHART
+---------------------- */
+
+    div.sport{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight:400;
+        font-size:.8em;
+    }
+    div.sportpay {
+        font-weight:700;
+        font-size:.8em;
+        background-color:#D6DDD4;
+        padding:4px;
+        margin-bottom: 4px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+    div.alpha, div.beta, div.gamma {
+        width:33%;
+        float:left;
+        margin:0;
+        padding:0;
+    }
+    div.alpha {
+        text-align: left;
+    }
+    div.beta {
+        text-align: center;
+    }
+    div.gamma {
+        text-align: right;
+    }
+
+/*----------------------
 DETAIL CHARTS
 ---------------------- */
 dl.chart {
