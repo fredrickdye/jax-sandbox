@@ -1,205 +1,205 @@
 
 $.getJSON($('link[rel="paylist"]').attr("href"), function(data) {
-    $(data).each(function() { output = "<p class=\"drlist\">" + this.Football + ", Football " + this.Basketball + "<!-- and facing " + this.Baseball + " death sentence(s).--></p>";
-    if (this.county == "Alachua"){
+    $(data).each(function() { output = "<div id=\"csscharts\"><dl class=\"chart\"><dt>Baseball</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.BaseballPct + "%\">&dollar;" + this.Baseball + "</div></dd><dt>Basketball</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.BasketballPct + "%\">&dollar;" + this.Basketball + "</div></dd><dt>Football</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.FootballPct + "%\">&dollar;" + this.Football + "</div></dd><dt>Golf</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.GolfPct + "%\">&dollar;" + this.Golf + "</div></dd><dt>Softball</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.SoftballPct + "%\">&dollar;" + this.Softball + "</div></dd><dt>Soccer</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.SoccerPct + "%\">&dollar;" + this.Soccer + "</div></dd><dt>Track</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.TrackPct + "%\">&dollar;" + this.Track + "</div></dd><dt>Volleyball</dt><dd><div class=\"bar dataslide\" style=\"width: " + this.VolleyballPct + "%\">&dollar;" + this.Volleyball + "</div></dd></dl></div>";
+    if (this.County == "Alachua"){
     $('#det-Alachua').append(output);
     }
-    if (this.county == "Baker"){
+    if (this.County == "Baker"){
     $('#det-Baker').append(output);
     }
-    if (this.county == "Bay"){
+    if (this.County == "Bay"){
     $('#det-Bay').append(output);
     }
-    if (this.county == "Bradford"){
+    if (this.County == "Bradford"){
     $('#det-Bradford').append(output);
     }
-    if (this.county == "Brevard"){
+    if (this.County == "Brevard"){
     $('#det-Brevard').append(output);
     }
-    if (this.county == "Broward"){
+    if (this.County == "Broward"){
     $('#det-Broward').append(output);
     }
-    if (this.county == "Calhoun"){
+    if (this.County == "Calhoun"){
     $('#det-Calhoun').append(output);
     }
-    if (this.county == "Charlotte"){
+    if (this.County == "Charlotte"){
     $('#det-Charlotte').append(output);
     }
-    if (this.county == "Citrus"){
+    if (this.County == "Citrus"){
     $('#det-Citrus').append(output);
     }
-    if (this.county == "Clay"){
+    if (this.County == "Clay"){
     $('#det-Clay').append(output);
     }
-    if (this.county == "Collier"){
+    if (this.County == "Collier"){
     $('#det-Collier').append(output);
     }
-    if (this.county == "Columbia"){
+    if (this.County == "Columbia"){
     $('#det-Columbia').append(output);
     }
-    if (this.county == "DeSoto"){
+    if (this.County == "DeSoto"){
     $('#det-DeSoto').append(output);
     }
-    if (this.county == "Dixie"){
+    if (this.County == "Dixie"){
     $('#det-Dixie').append(output);
     }
-    if (this.county == "Duval"){
+    if (this.County == "Duval"){
     $('#det-Duval').append(output);
     }
-    if (this.county == "Escambia"){
+    if (this.County == "Escambia"){
     $('#det-Escambia').append(output);
     }
-    if (this.county == "Flagler"){
+    if (this.County == "Flagler"){
     $('#det-Flagler').append(output);
     }
-    if (this.county == "Franklin"){
+    if (this.County == "Franklin"){
     $('#det-Franklin').append(output);
     }
-    if (this.county == "Gadsden"){
+    if (this.County == "Gadsden"){
     $('#det-Gadsden').append(output);
     }
-    if (this.county == "Gilchrist"){
+    if (this.County == "Gilchrist"){
     $('#det-Gilchrist').append(output);
     }
-    if (this.county == "Glades"){
+    if (this.County == "Glades"){
     $('#det-Glades').append(output);
     }
-    if (this.county == "Gulf"){
+    if (this.County == "Gulf"){
     $('#det-Gulf').append(output);
     }
-    if (this.county == "Hamilton"){
+    if (this.County == "Hamilton"){
     $('#det-Hamilton').append(output);
     }
-    if (this.county == "Hardee"){
+    if (this.County == "Hardee"){
     $('#det-Hardee').append(output);
     }
-    if (this.county == "Hendry"){
+    if (this.County == "Hendry"){
     $('#det-Hendry').append(output);
     }
-    if (this.county == "Hernando"){
+    if (this.County == "Hernando"){
     $('#det-Hernando').append(output);
     }
-    if (this.county == "Highlands"){
+    if (this.County == "Highlands"){
     $('#det-Highlands').append(output);
     }
-    if (this.county == "Hillsborough"){
+    if (this.County == "Hillsborough"){
     $('#det-Hillsborough').append(output);
     }
-    if (this.county == "Holmes"){
+    if (this.County == "Holmes"){
     $('#det-Holmes').append(output);
     }
-    if (this.county == "Indian River"){
+    if (this.County == "Indian River"){
     $('#det-IndianRiver').append(output);
     }
-    if (this.county == "Jackson"){
+    if (this.County == "Jackson"){
     $('#det-Jackson').append(output);
     }
-    if (this.county == "Jefferson"){
+    if (this.County == "Jefferson"){
     $('#det-Jefferson').append(output);
     }
-    if (this.county == "Lafayette"){
+    if (this.County == "Lafayette"){
     $('#det-Lafayette').append(output);
     }
-    if (this.county == "Lake"){
+    if (this.County == "Lake"){
     $('#det-Lake').append(output);
     }
-    if (this.county == "Lee"){
+    if (this.County == "Lee"){
     $('#det-Lee').append(output);
     }
-    if (this.county == "Leon"){
+    if (this.County == "Leon"){
     $('#det-Leon').append(output);
     }
-    if (this.county == "Levy"){
+    if (this.County == "Levy"){
     $('#det-Levy').append(output);
     }
-    if (this.county == "Liberty"){
+    if (this.County == "Liberty"){
     $('#det-Liberty').append(output);
     }
-    if (this.county == "Madison"){
+    if (this.County == "Madison"){
     $('#det-Madison').append(output);
     }
-    if (this.county == "Manatee"){
+    if (this.County == "Manatee"){
     $('#det-Manatee').append(output);
     }
-    if (this.county == "Marion"){
+    if (this.County == "Marion"){
     $('#det-Marion').append(output);
     }
-    if (this.county == "Martin"){
+    if (this.County == "Martin"){
     $('#det-Martin').append(output);
     }
-    if (this.county == "Dade"){
+    if (this.County == "Dade"){
     $('#det-Dade').append(output);
     }
-    if (this.county == "Monroe"){
+    if (this.County == "Monroe"){
     $('#det-Monroe').append(output);
     }
-    if (this.county == "Nassau"){
+    if (this.County == "Nassau"){
     $('#det-Nassau').append(output);
     }
-    if (this.county == "Okaloosa"){
+    if (this.County == "Okaloosa"){
     $('#det-Okaloosa').append(output);
     }
-    if (this.county == "Okeechobee"){
+    if (this.County == "Okeechobee"){
     $('#det-Okeechobee').append(output);
     }
-    if (this.county == "Orange"){
+    if (this.County == "Orange"){
     $('#det-Orange').append(output);
     }
-    if (this.county == "Osceola"){
+    if (this.County == "Osceola"){
     $('#det-Osceola').append(output);
     }
-    if (this.county == "Palm Beach"){
+    if (this.County == "Palm Beach"){
     $('#det-PalmBeach').append(output);
     }
-    if (this.county == "Pasco"){
+    if (this.County == "Pasco"){
     $('#det-Pasco').append(output);
     }
-    if (this.county == "Pinellas"){
+    if (this.County == "Pinellas"){
     $('#det-Pinellas').append(output);
     }
-    if (this.county == "Polk"){
+    if (this.County == "Polk"){
     $('#det-Polk').append(output);
     }
-    if (this.county == "Putnam"){
+    if (this.County == "Putnam"){
     $('#det-Putnam').append(output);
     }
-    if (this.county == "Santa Rosa"){
+    if (this.County == "Santa Rosa"){
     $('#det-SantaRosa').append(output);
     }
-    if (this.county == "Sarasota"){
+    if (this.County == "Sarasota"){
     $('#det-Sarasota').append(output);
     }
-    if (this.county == "Seminole"){
+    if (this.County == "Seminole"){
     $('#det-Seminole').append(output);
     }
-    if (this.county == "St. Johns"){
+    if (this.County == "St. Johns"){
     $('#det-StJohns').append(output);
     }
-    if (this.county == "St. Lucie"){
+    if (this.County == "St. Lucie"){
     $('#det-StLucie').append(output);
     }
-    if (this.county == "Sumter"){
+    if (this.County == "Sumter"){
     $('#det-Sumter').append(output);
     }
-    if (this.county == "Suwannee"){
+    if (this.County == "Suwannee"){
     $('#det-Suwannee').append(output);
     }
-    if (this.county == "Taylor"){
+    if (this.County == "Taylor"){
     $('#det-Taylor').append(output);
     }
-    if (this.county == "Union"){
+    if (this.County == "Union"){
     $('#det-Union').append(output);
     }
-    if (this.county == "Volusia"){
+    if (this.County == "Volusia"){
     $('#det-Volusia').append(output);
     }
-    if (this.county == "Wakulla"){
+    if (this.County == "Wakulla"){
     $('#det-Wakulla').append(output);
     }
-    if (this.county == "Walton"){
+    if (this.County == "Walton"){
     $('#det-Walton').append(output);
     }
-    if (this.county == "Washington"){
+    if (this.County == "Washington"){
     $('#det-Washington').append(output);
     }
 

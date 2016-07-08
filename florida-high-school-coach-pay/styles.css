@@ -21,17 +21,17 @@ div#statemap {
     top: 0;
     left: 0;
     min-width: 320px;
-    max-width: 640px;
+    max-width: 720px;
 
 }
 
 div.chatter {color: #fff; padding: 8px 12px;}
-div.chatter h1 {font-size: 21pt; margin: 0;}
-div.chatter p {font-size: 12pt; margin: 0;}
+div.chatter h1 {font-size: 18pt; margin: 0;}
+div.chatter p {font-size: 11pt; margin: 0;}
 
 
 /*----------------------
-XXXXXX
+2L BLOCKS
 ---------------------- */
 div#credits {
 font-size: 0.7em;
@@ -88,15 +88,15 @@ div#det-sample {display: none;}
 div#dpstatedets {
     position: absolute;
     left: 0;
-    top: 33%;
-    width:60%;
+    top: 30%;
+    width:57%;
 }
 div.county-list {
     max-height: 550px;
     overflow-y: auto;
 }
 div.county-list h1+p::before {
-    content: "Blah blah blah blah:";
+    content: "How stipends compare, percentage-wise, to the state maximum in each sport:";
 }
 p.drlist {margin:6px 0px;}
 
@@ -104,7 +104,7 @@ p.drlist {margin:6px 0px;}
 CLOSER
 ---------------------- */
 p#dismiss {
-font-size:0.9em;
+font-size:0.75em;
 text-align: center;
 cursor: pointer;
 margin:8px 0 0 0;
@@ -115,7 +115,7 @@ p#dismiss+h1 {margin-top: 0;}
 p#dismiss:hover {color: #C1272D;}
 
 p.dismiss {
-font-size:0.9em;
+font-size:0.8em;
 text-align: center;
 cursor: pointer;
 margin:8px 0 0 0;
@@ -124,5 +124,117 @@ padding: 0;
 }
 p.dismiss+h1 {margin-top: 0;}
 p.dismiss:hover {color: #C1272D;}
+
+/*----------------------
+START CHART
+---------------------- */
+
+    div.sport{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight:400;
+        font-size:.8em;
+    }
+    div.sportpay {
+        color:#000;
+        font-weight:700;
+        font-size:.8em;
+        background-color:#D6DDD4;
+        padding:4px;
+        margin-bottom: 4px;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+    div.alpha, div.beta, div.gamma {
+        width:33%;
+        float:left;
+        margin:0;
+        padding:0;
+    }
+    div.alpha {
+        text-align: left;
+    }
+    div.beta {
+        text-align: center;
+    }
+    div.gamma {
+        text-align: right;
+    }
+
+/*----------------------
+DETAIL CHARTS
+---------------------- */
+dl.chart {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p.chartnote {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9em;
+    font-weight:400;
+    font-style: italic;
+    margin-bottom:0px;
+}
+dt {
+    padding: 0px 0px;
+    font-weight:400;
+    font-size:.8em;
+    }
+dd {
+    padding: 0px;
+    -webkit-margin-start: 0px;
+    -moz-margin-start: 0px;
+    background-color: #aaaaaa;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.bar {
+    margin-bottom: 8px;
+    color: #000;
+    font-size:.75em;
+    font-weight: 700;
+    padding: 2px 4px;
+    text-align: right;
+    background-color: #D6DDD4;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.dataslide { 
+    animation-name:barchartani; 
+    animation-duration:0.8s;
+    animation-iteration-count:1;
+    animation-timing-function:ease-out;
+
+    -webkit-animation-name:barchartani; 
+    -webkit-animation-duration:0.8s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-timing-function:ease-out;
+
+    -moz-animation-name:barchartani; 
+    -moz-animation-duration:0.8s;
+    -moz-animation-iteration-count:1;
+    -moz-animation-timing-function:ease-out;
+
+    -o-animation-name:barchartani; 
+    -o-animation-duration:0.8s;
+    -o-animation-iteration-count:1;
+    -o-animation-timing-function:ease-out;
+}
+@keyframes barchartani {
+0% { width:0%; }
+}
+@-moz-keyframes barchartani {
+0% { width:0%; }
+}
+@-webkit-keyframes barchartani {
+0% { width:0%; }
+}
+@-o-keyframes barchartani {
+0% { width:0%; }
+}
 
 
