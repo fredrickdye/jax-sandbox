@@ -96,7 +96,7 @@ div.county-list {
     overflow-y: auto;
 }
 div.county-list h1+p::before {
-    content: "How stipends compare, percentage-wise, to the state maximum in each sport:";
+    content: "How supplements compare, percentage-wise, to the state maximum in each sport:";
 }
 p.drlist {margin:6px 0px;}
 
