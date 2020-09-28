@@ -11,9 +11,9 @@ Some projects once in active development that lacked the necessary support to co
 [A map-based visualization](crime-hotspots/) looking at select subsets of crime in Jacksonville from Feb. 2015-Jan. 2016. These datasets were the basis for the custom SVG and print "Crime Time" project.
 
 ### Homicides
-[A simple map](homicides-map-2/) and [more developed one](homicides-map-1/) (based on the Hobbit Map) that was the genesis of my 2014 "Decade of Death" look at homicides in Jacksonville. These examples continue to use the CatoDB datasets. You can see the prototypes for the project over on the [Three Loons Labs platform](http://labs.threeloons.com/freddye/Jacksonville-Data/) since they were deleted from Jacksonville.com. There's an explanation of that on the background page. Those examples are built on the Github datasets.
+[A simple map](homicides-map-2/) and [more developed one](homicides-map-1/) (based on the Hobbit Map) that was the genesis of my 2014 "Decade of Death" look at homicides in Jacksonville. These examples continue to use the CatoDB datasets.
 
 ## Elections
 
-###2016 Presidential Primaries
+### 2016 Presidential Primaries
 [A quick little chart](elections/2016-primary-duval-county-overall/) to gather up the results in Duval County, Florida, as soon as they were released.
